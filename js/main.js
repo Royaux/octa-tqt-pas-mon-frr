@@ -207,7 +207,7 @@ function login()
         {
             
             localStorage.setItem('sessionUsername', usersinfo[i].name)
-            loginBtn.setAttribute("href", "Accueil.html");
+            loginBtn.setAttribute("href", "#");
         }
         else
         {
