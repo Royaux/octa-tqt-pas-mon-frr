@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Inscription</title>
+    <!-- Installation Icon Page-->
+    <link rel="shortcut icon" href="image/logo/logo@2x.png" type="image/x-icon">
+    <!-- Installation CSS File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="image/slider-Bg/background.gif">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Loading -->
+<div id="Loading">
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+</div>
+    <div class="container py-5 form-container">
+       <div class="row">
+        <div class="col-md-6 back-left position-relative">
+            <span class="text-success fs-2 fw-bold top-0 start-0 fst-italic position-absolute">Octa Movie</span>
+
+        </div>
+        <div class="col-md-6 back-right">
+            <h3 class="mb-5 fst-italic">S'inscrire</h3>
+                <div class="mb-3 ">
+                     <label for="usernameInput">Nom D'utilisateur</label>
+                    <input type="text" class="form-control bg-transparent " id="usernameInput" placeholder="Entre ton Nom">
+                    <p id="usernameAlert" class="d-none text-danger">Doit commencer par une majuscule, le nom est facultatif</p>
+                </div>
+                <div class="mb-3 ">
+                    <label for="userEmailInput">Adresse Mail</label>
+                    <input type="email" class="form-control bg-transparent " id="userEmailInput" placeholder="Entre ton adresse mail">
+                    <p id="userEmailAlert" class="d-none text-danger">Octa.shop@example.com</p>
+    
+                </div>
+                <div class="mb-3">
+                    <label for="userPasswordInput">Mot De Passe</label>
+                    <input type="password" class="form-control bg-transparent  mb-3" id="userPasswordInput" placeholder="Entre Ton Mot de Passe">
+                    <p id="userPasswordAlert" class="d-none text-danger m-0">Votre mot de passe doit contenir entre 5 & 15 caractères</p>
+    
+                </div>
+                <p class="text-success d-none" id="confirmMsg">Compte créer ::</p>
+                <p class="text-danger d-none mb-0" id="accountExistMsg">Ce compte existe déja! Essaye de te connecté.</p>
+                <p class="text-danger d-none mb-0" id="tryAgainMsg">Il y a eu un probleme, merci de réessayer, si le probleme perciste, Vous devrez contacter le support</p>
+                <aid="signupBtn" onclick="signUp()" class="btn btn-warning w-100 mb-3 mt-4 text-decoration-none border-0 rounded-0 p-2">S'inscrire</a>
+                <p class="text-center d-block">Vous avez déja un compte? <a href="index.html" class=" text-decoration-none">Vous connectez</a></p>
+                <a href="index.html" class="d-none btn btn-outline-success  w-25 m-auto" id="signin">signin</a>
+            </div>  
+        </div>
+    </div>
+    <!-- Installation Script File -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.json"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
